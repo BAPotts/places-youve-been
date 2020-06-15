@@ -21,6 +21,14 @@ function Locations(name, landmarks, seasonVisited, notes) {
   this.notes = notes;
 }
 
+function listProperties(object) {
+  let property, txt = "";
+  for(property in object) {
+    txt += object[property] + " ";
+  }
+  return txt;
+}
+
 $(document).ready(function() {
 
 let listOfPlaces = new PlacesIveBeen();
@@ -34,8 +42,20 @@ listOfPlaces.addLocation(annArbor);
 listOfPlaces.addLocation(frankenmuth);
 listOfPlaces.addLocation(hamtramck);
 
+$("#annArbor").click(function() {
+  let output = listProperties(annArbor);
+  $("#output").text(output);
+});
 
+$("#frankenmuth").click(function() {
+  let output = listProperties(frankenmuth);
+  $("#output").text(output);
+});
 
+$("#hamtramck").click(function() {
+  let output = listProperties(frankenmuth);
+  $("#output").text(output);
+});
 
 
 
