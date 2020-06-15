@@ -9,10 +9,12 @@
 ## Languages & Technologies Used:
  
   ### Programming Languages & Libraries
-  * [Unordered List]
+  * HTML
+  *JavaScript
+  *JQuery
  
   ### Operating Systems & Programs
-  * [Unordered List]
+  * VS Code
  
 ## Installation
  
@@ -25,29 +27,16 @@
  
 ## Specifications
  
-| Behavior   |   |   |
+| Behavior   | 
 |---|---|---|
-| This program will display a list of places  |   |   |
-| This program will display details about the place when the place name is clicked |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| This program will display a list of places  |
+| This program will display details about the place when the place name is clicked |
 |   |   |   |
  
 ## Known Bugs
  
   * No known bugs at this time. 
-### Contributors
- 
-  * [Contributor(s): Anyone who contributed at least %5 of the total product.]
+
  
 ### License
  
