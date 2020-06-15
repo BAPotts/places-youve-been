@@ -30,6 +30,11 @@ let frankenmuth = new Locations("Frankenmuth", ["That chicken place", "The other
 let hamtramck = new Locations("Hamtramck", ["Bumbos", "Polish Village"], "Winter 2017", "I used to live here in the world's nastiest apartment");
 
 
+listOfPlaces.addLocation(annArbor);
+listOfPlaces.addLocation(frankenmuth);
+listOfPlaces.addLocation(hamtramck);
+
+
 
 
 
