@@ -33,9 +33,9 @@ $(document).ready(function() {
 
 let listOfPlaces = new PlacesIveBeen();
 
-let annArbor = new Locations("Ann Arbor", ["U of M", "Pinball Pete's"], "Summer 2019", "I've been here lots of times.");
-let frankenmuth = new Locations("Frankenmuth", ["That chicken place", "The other chicken place"], "Spring 2018", "I stayed overnight in a cute cabin.");
-let hamtramck = new Locations("Hamtramck", ["Bumbos", "Polish Village"], "Winter 2017", "I used to live here in the world's nastiest apartment");
+let annArbor = new Locations("Ann Arbor", ["U of M", " Pinball Pete's"], "Summer 2019", "I've been here lots of times.");
+let frankenmuth = new Locations("Frankenmuth", ["That chicken place", " The other chicken place"], "Spring 2018", "I stayed overnight in a cute cabin.");
+let hamtramck = new Locations("Hamtramck", ["Bumbos", " Polish Village"], "Winter 2017", "I used to live here in the world's nastiest apartment");
 
 
 listOfPlaces.addLocation(annArbor);
@@ -53,7 +53,7 @@ $("#frankenmuth").click(function() {
 });
 
 $("#hamtramck").click(function() {
-  let output = listProperties(frankenmuth);
+  let output = listProperties(hamtramck);
   $("#output").text(output);
 });
 
